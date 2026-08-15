@@ -35,6 +35,8 @@ Para operar esta solução em escala, a API desenvolvida em FastAPI será implan
 
 Os dados brutos de interações e conversões serão direcionados via **Amazon Kinesis Data Firehose** para um Data Lake no **Amazon S3**. A esteira de MLOps utilizará o **AWS SageMaker** (ou um servidor **MLflow** hospedado em instância EC2) para rastreamento de experimentos, versionamento de modelos e re-treinamento periódico dos *priors* bayesianos a partir do histórico de conversões do Data Lake.
 
+### Link video  - https://drive.google.com/file/d/1zKvRpj-FCci3DL_5jp2L3CzEffENHuQ0/view?usp=sharing
+
 ### Passos para execução
 ```bash
 # 1. Clonar o repositório
