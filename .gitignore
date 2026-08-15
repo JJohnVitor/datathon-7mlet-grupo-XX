@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow e Dados
+data/raw/*
+!data/raw/.gitkeep
+mlruns/
+.DS_Store
